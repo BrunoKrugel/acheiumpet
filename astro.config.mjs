@@ -1,4 +1,9 @@
 import { defineConfig } from 'astro/config';
+import tailwind from '@astrojs/tailwind';
+import critters from 'astro-critters';
+import purgecss from 'astro-purgecss';
+import react from '@astrojs/react';
 
-// https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+	integrations: [tailwind(), critters(), purgecss(), react()],
+});
