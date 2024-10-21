@@ -23,7 +23,7 @@
 		"@astrojs/tailwind": "^5.1.0",
 		"@types/react": "^18.2.77",
 		"@types/react-dom": "^18.2.25",
-		"astro": "4.6.1",
+		"astro": "4.16.6",
 		"astro-critters": "^2.1.6",
 		"astro-purgecss": "^4.1.0",
 		"exifreader": "^4.22.1",
